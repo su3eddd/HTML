@@ -25,9 +25,10 @@ body {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 40px;
     color: #ffc619;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -78,6 +79,7 @@ section {
 #about .caption {
     text-align: center;
     font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
     line-height: 1.5;
     background-color:#e09f5a2c; /* Background color with transparency */
     color: #fff; /* Text color */
@@ -175,11 +177,19 @@ section {
 }
 
 .testimonial-image p {
-    font-size: 30px; /* Adjust font size as needed */
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffc619;
 }
 .testimonial-image {
     text-align: center;
     display: none; /* Hide all images by default */
+}
+.testimonial h2{
+    color:#fda300;
+}
+.video h3{
+    color: #fda300;
 }
 .work-videos {
     display: flex;
@@ -207,7 +217,19 @@ section {
 }
 .contact-right{
     flex-basis: 40%;
-    padding: 0 40px; /* Added padding values */
+    padding: 0 40px;
+    background-color:#e09f5a;
+}
+.foot{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    color: #1f4762;
+}
+.tab{
+    font-size: 25px;
 }
 label, input, textarea {
     margin-bottom: 10px; /* Increased margin for better spacing */
